@@ -1,20 +1,22 @@
 
 
-# NarraSum
-
-![Drag Racing](narrative_summ_example.png)
+# <img src="figures/spring_tree.png" width="40" height="40"> NarraSum
 
 
 ### What is NarraSum?
 
 NarraSum is a large-scale abstractive narrative summarization dataset that is proposed in our EMNLP Findings 2022 paper [Learning-by-Narrating: Narrative Pre-Training for Zero-Shot Dialogue Comprehension](./).
-It contains 122K (Document, Summary) pairs derived from plot descriptions of 22.8K unique movies and 28.5K unique TV episodes.
+It contains 122K (Document, Summary) pairs derived from plot descriptions of 22.8K unique movies and 28.5K unique TV episodes, which span a wide period and contain a broad range of genres.
+
+![Drag Racing](figures/year_and_genre.png)
 
 We collect plot descriptions of movies and TV episodes from various movie websites. 
 We then align plot descriptions in these resources that refer to the same movie or TV episode. 
 Finally, we construct document-summary pairs by treating the long plot description as the document to be summarized and the shorter one (of the same movie or TV episode) as the corresponding summary.
 
-The average length of documents and summaries are 785.97 and 147.06 tokens, and the average compression ratio is 5.34. 
+![Drag Racing](figures/narrative_summ_example.png)
+
+The average length of documents and summaries is 785.97 and 147.06 tokens, and the average compression ratio is 5.34. 
 
 ### Why use NarraSum?
 
@@ -23,8 +25,8 @@ From the plot’s perspective, the model needs to understand the causal and temp
 From the character’s perspective, the model needs to understand the characters’ profiles, and how their desires and actions drive the story forward.
 The paired document and summary data in NarraSum is a valuable resource to address these challenges and promote the related research. 
 
-Besides narrative summarization, NarraSum can also benefit to broader NLP tasks.
-For example, in machine reading comprehension, the paired plot descriptions with low lexical overlap can improve the model’s capacity of complex reasoning and understanding. 
+Besides narrative summarization, NarraSum can also benefit broader NLP tasks.
+For example, in machine reading comprehension, the paired plot descriptions with low lexical overlap can improve the model’s capacity for complex reasoning and understanding. 
 In narrative understanding, a summary of the narrative can help identify the salient event as well as the causal, temporal, and hierarchical relationships of events. 
 In creative writing and storytelling, this dataset can support the research of expanding a short story outline to a more detailed story.
 
@@ -36,7 +38,7 @@ and we'll send the link to your email address within a week.
 
 
 ### Related Data
-If you are interested in understanding, narrating, and summarizing dialogues, Please check out [Diana](https://github.com/zhaochaocs/Diana), 
+If you are interested in understanding, narrating, and summarizing dialogues, Please check out [DIANA](https://github.com/zhaochaocs/Diana), 
 a large-scale dialogue-narrative parallel corpus that is proposed in our ACL 2022 paper [Learning-by-Narrating: Narrative Pre-Training for Zero-Shot Dialogue Comprehension](https://aclanthology.org/2022.acl-short.23.pdf).
 It contains 243K (DIAlogue, NArrative) pairs derived from subtitles and synopses of 47K English movies and TV episodes.
 
@@ -57,5 +59,3 @@ It contains 243K (DIAlogue, NArrative) pairs derived from subtitles and synopses
     year = "2022",
 }
 ```
-
-
