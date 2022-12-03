@@ -1,6 +1,6 @@
 
 
-# <img src="figures/spring_tree.png" width="40" height="40"> NarraSum
+# <img src="figures/spring_tree.png" height="40"> NarraSum
 
 
 ### What is NarraSum?
@@ -8,13 +8,18 @@
 NarraSum is a large-scale abstractive narrative summarization dataset that is proposed in our EMNLP Findings 2022 paper [Learning-by-Narrating: Narrative Pre-Training for Zero-Shot Dialogue Comprehension](./).
 It contains 122K (Document, Summary) pairs derived from plot descriptions of 22.8K unique movies and 28.5K unique TV episodes, which span a wide period and contain a broad range of genres.
 
-![Drag Racing](figures/year_and_genre.png)
+<p align="center" width="100%">
+    <img width="70%" src="figures/year_and_genre.png"> 
+</p>
 
 We collect plot descriptions of movies and TV episodes from various movie websites. 
 We then align plot descriptions in these resources that refer to the same movie or TV episode. 
 Finally, we construct document-summary pairs by treating the long plot description as the document to be summarized and the shorter one (of the same movie or TV episode) as the corresponding summary.
 
-![Drag Racing](figures/narrative_summ_example.png)
+
+<p align="center" width="100%">
+    <img width="90%" src="figures/narrative_summ_example.png"> 
+</p>
 
 The average length of documents and summaries is 785.97 and 147.06 tokens, and the average compression ratio is 5.34. 
 
