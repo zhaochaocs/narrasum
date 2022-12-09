@@ -62,5 +62,9 @@ It contains 243K (DIAlogue, NArrative) pairs derived from subtitles and synopses
     booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
     month = dec,
     year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.14/",
+    pages = "182--197",
 }
 ```
