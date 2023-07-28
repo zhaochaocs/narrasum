@@ -51,20 +51,10 @@ It contains 243K (DIAlogue, NArrative) pairs derived from subtitles and synopses
 ### Citation 
 
 ```bibtex
-@inproceedings{zhao-etal-2022-narrasum,
-    title = "NARRASUM: A Large-Scale Dataset for Abstractive Narrative Summarization",
-    author = "Zhao, Chao  and
-      Brahman, Faeze  and
-      Song, Kaiqiang  and
-      Yao, Wenlin  and
-      Yu, Dian  and
-      Chaturvedi, Snigdha",
-    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
-    month = dec,
-    year = "2022",
-    address = "Abu Dhabi, United Arab Emirates",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.findings-emnlp.14/",
-    pages = "182--197",
+@article{zhao2022narrasum,
+  title={NarraSum: A Large-Scale Dataset for Abstractive Narrative Summarization},
+  author={Zhao, Chao and Brahman, Faeze and Song, Kaiqiang and Yao, Wenlin and Yu, Dian and Chaturvedi, Snigdha},
+  journal={arXiv preprint arXiv:2212.01476},
+  year={2022}
 }
 ```
